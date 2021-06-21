@@ -27,9 +27,14 @@ if (vx == 0 && vy == 0) {
 
 // If moving
 if (vx != 0 || vy != 0) {
-	x += vx;
-	y += vy;
+	if !collision_point(x + vx, y, object_par_enviroment, true, true) {
+		x += vx;
+	}
 	
+	if !collision_point(x, y + vy, object_par_enviroment, true, true) {
+		y += vy;
+	}
+
 	// Change walking sprite based on direction
 	// Right
 	if (vx > 0) {
@@ -55,3 +60,4 @@ if (vx != 0 || vy != 0) {
 
 // Depth sorting
 depth = -y;
+

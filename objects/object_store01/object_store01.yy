@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_store01",
+    "path": "sprites/spr_store01/spr_store01.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "object_par_enviroment",
+    "path": "objects/object_par_enviroment/object_par_enviroment.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -17,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -27,7 +31,7 @@
     "path": "folders/Objects/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_par_enviroment",
+  "name": "object_store01",
   "tags": [],
   "resourceType": "GMObject",
 }
