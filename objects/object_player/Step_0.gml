@@ -27,11 +27,11 @@ if (vx == 0 && vy == 0) {
 
 // If moving
 if (vx != 0 || vy != 0) {
-	if !collision_point(x + vx, y, object_par_enviroment, true, true) {
+	if !collision_point(x + vx, y, object_parent_enviroment, true, true) {
 		x += vx;
 	}
 	
-	if !collision_point(x, y + vy, object_par_enviroment, true, true) {
+	if !collision_point(x, y + vy, object_parent_enviroment, true, true) {
 		y += vy;
 	}
 
