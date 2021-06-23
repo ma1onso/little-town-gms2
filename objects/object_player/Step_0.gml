@@ -58,6 +58,16 @@ if (vx != 0 || vy != 0) {
 	}
 }
 
+nearbyNPC = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, object_parent_npc, false, true);
+if nearbyNPC {
+	// Play greeting sound
+	audio_play_sound(snd_greeting01, 1, false);
+	show_debug_message("object_player has found an NPC!");
+}
+if !nearbyNPC {
+	show_debug_message("object_player hasn't found an NPC!");
+}
+
 // Depth sorting
 depth = -y;
 
