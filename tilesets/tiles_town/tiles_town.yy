@@ -1,5 +1,4 @@
 {
-  "name": "tiles_town",
   "spriteId": {
     "name": "spr_townTiles",
     "path": "sprites/spr_townTiles/spr_townTiles.yy",
@@ -61,6 +60,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tiles_town",
   "tags": [],
   "resourceType": "GMTileSet",
 }

@@ -25,7 +25,10 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"useSound","path":"objects/object_parent_enviroment/object_parent_enviroment.yy",},"objectId":{"name":"object_parent_enviroment","path":"objects/object_parent_enviroment/object_parent_enviroment.yy",},"value":"snd_fountain","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"maxDist","path":"objects/object_parent_enviroment/object_parent_enviroment.yy",},"objectId":{"name":"object_parent_enviroment","path":"objects/object_parent_enviroment/object_parent_enviroment.yy",},"value":"800","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Environment",
     "path": "folders/Objects/Environment.yy",
