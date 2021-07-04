@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gui_textbox",
-    "path": "sprites/spr_gui_textbox/spr_gui_textbox.yy",
+    "name": "spr_gui_prompt",
+    "path": "sprites/spr_gui_prompt/spr_gui_prompt.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,10 +22,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +32,7 @@
     "path": "folders/Objects/UI .yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_text_box",
+  "name": "object_prompt",
   "tags": [],
   "resourceType": "GMObject",
 }

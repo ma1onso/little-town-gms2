@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite24",
-    "path": "sprites/Sprite24/Sprite24.yy",
+    "name": "spr_grocer_idle_down",
+    "path": "sprites/spr_grocer_idle_down/spr_grocer_idle_down.yy",
   },
   "solid": false,
   "visible": true,

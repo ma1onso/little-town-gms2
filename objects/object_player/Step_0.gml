@@ -69,6 +69,7 @@ if (vx != 0 || vy != 0) {
 	audio_listener_set_position(0, x, y, 0);
 }
 
+// Check for collision with NPCs
 nearbyNPC = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, object_parent_npc, false, true);
 if nearbyNPC {
 	// Play greeting sound
@@ -76,6 +77,13 @@ if nearbyNPC {
 		audio_play_sound(snd_greeting01, 1, false);
 		hasGreeted = true;
 	}
+	// Pop up prompt
+	if (npcPrompt == noone || npcPrompt == undefined) {
+		randomize();
+		show_debug_message("Entre en esto" + string(irandom_range(1, 1000)));
+	    npcPrompt = showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y - 450);
+	}
+	
 	show_debug_message("object_player has found an NPC!");
 }
 if !nearbyNPC {
@@ -83,6 +91,8 @@ if !nearbyNPC {
 	if (hasGreeted == true) {
 		hasGreeted = false;
 	}
+	// Get rid of prompt
+	dismissPrompt(npcPrompt, 0);
 	show_debug_message("object_player hasn't found an NPC!");
 }
 

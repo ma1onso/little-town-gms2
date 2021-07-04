@@ -9,3 +9,9 @@ fadeSpeed = 0.1;
 image_alpha = 0;
 
 global.playerControl = false;
+
+// Play UI sound
+audio_play_sound(snd_pop01, 1, false);
+
+// Dismiss any visible prompts
+dismissPrompt(object_prompt, 0);
