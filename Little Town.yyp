@@ -34,6 +34,7 @@
     {"id":{"name":"object_npc_grocer","path":"objects/object_npc_grocer/object_npc_grocer.yy",},"order":3,},
     {"id":{"name":"snd_townBGM","path":"sounds/snd_townBGM/snd_townBGM.yy",},"order":6,},
     {"id":{"name":"spr_store01","path":"sprites/spr_store01/spr_store01.yy",},"order":6,},
+    {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},"order":15,},
     {"id":{"name":"spr_player_walk_up","path":"sprites/spr_player_walk_up/spr_player_walk_up.yy",},"order":6,},
     {"id":{"name":"spr_grass01","path":"sprites/spr_grass01/spr_grass01.yy",},"order":4,},
     {"id":{"name":"snd_itemPutDown","path":"sounds/snd_itemPutDown/snd_itemPutDown.yy",},"order":11,},

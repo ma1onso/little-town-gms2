@@ -1,10 +1,18 @@
 /// @description Player movement
 
 // Check keys for movement
-moveRight = keyboard_check(vk_right);
-moveLeft = keyboard_check(vk_left);
-moveUp = keyboard_check(vk_up);
-moveDown = keyboard_check(vk_down);
+if (global.playerControl == true) {
+	moveRight = keyboard_check(vk_right);
+	moveLeft = keyboard_check(vk_left);
+	moveUp = keyboard_check(vk_up);
+	moveDown = keyboard_check(vk_down);
+}
+if (global.playerControl == false) {
+	moveRight = 0;
+	moveLeft = 0;
+	moveUp = 0;
+	moveDown = 0;
+}
 
 // Calculate movement
 vx = ((moveRight - moveLeft) * walkSpeed);

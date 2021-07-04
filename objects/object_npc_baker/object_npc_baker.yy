@@ -28,6 +28,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"loopRange01","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"90","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"loopRange02","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"420","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"myText","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"\"I sure love baking bread\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "NPCs",

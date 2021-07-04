@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_grocer_idle_down",
-    "path": "sprites/spr_grocer_idle_down/spr_grocer_idle_down.yy",
+    "name": "Sprite24",
+    "path": "sprites/Sprite24/Sprite24.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,6 +28,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"loopRange01","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"40","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"loopRange02","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"260","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"myText","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"\"Good crops this year\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "NPCs",
