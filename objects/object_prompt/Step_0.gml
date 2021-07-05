@@ -1,4 +1,9 @@
 /// @description Effects and animation
+
+// Bob up and down
+y += shift;
+
+// Fade effects
 switch (fadeMe) {
     case "fadeIn":
 		if (image_alpha < 1) {

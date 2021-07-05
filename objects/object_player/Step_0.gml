@@ -79,8 +79,6 @@ if nearbyNPC {
 	}
 	// Pop up prompt
 	if (npcPrompt == noone || npcPrompt == undefined) {
-		randomize();
-		show_debug_message("Entre en esto" + string(irandom_range(1, 1000)));
 	    npcPrompt = showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y - 450);
 	}
 	
