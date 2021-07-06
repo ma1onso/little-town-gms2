@@ -20,17 +20,7 @@ vy = ((moveDown - moveUp) * walkSpeed);
 
 // If idle
 if (vx == 0 && vy == 0) {
-	// Change last sprite based on last direction
-	switch dir {
-		case 0:
-			sprite_index = spr_player_idle_right; break;
-		case 1:
-			sprite_index = spr_player_idle_up; break;
-		case 2:
-			sprite_index = spr_player_idle_left; break;
-		case 3:
-			sprite_index = spr_player_idle_down; break;
-	}
+	myState = playerState.idle;
 }
 
 // If moving
@@ -43,27 +33,26 @@ if (vx != 0 || vy != 0) {
 		y += vy;
 	}
 
-	// Change walking sprite based on direction
+	// Change direction based on movement
 	// Right
 	if (vx > 0) {
-		sprite_index = spr_player_walk_right;
 		dir = 0;
 	}
 	// Left
 	if (vx < 0) {
-		sprite_index = spr_player_walk_left;
 		dir = 2;
 	}
 	// Down
 	if (vy > 0) {
-		sprite_index = spr_player_walk_down;
 		dir = 3;
 	}
 	// Up
 	if (vy < 0) {
-		sprite_index = spr_player_walk_up;
 		dir = 1;
 	}
+	
+	// Set state
+	myState = playerState.walking;
 	
 	// Move audio listener with me
 	audio_listener_set_position(0, x, y, 0);
@@ -94,6 +83,23 @@ if !nearbyNPC {
 	show_debug_message("object_player hasn't found an NPC!");
 }
 
+// Check for collision with Items
+nearbyItem = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, object_parent_item, false, true);
+if nearbyItem {
+	// Pop up prompt
+	if (itemPrompt == noone || itemPrompt == undefined) {
+		show_debug_message("object_player has found an item!");
+	    itemPrompt = showPrompt(nearbyItem, nearbyItem.x, nearbyItem.y - 300);
+	}
+}
+if !nearbyItem {
+	// Get rid of prompt
+	dismissPrompt(itemPrompt, 1);
+	show_debug_message("object_player hasn't found an item!");
+}
+
 // Depth sorting
 depth = -y;
 
+// Auto-choose Sprite based on state and direction
+sprite_index = playerSprite[myState][dir];
