@@ -20,7 +20,17 @@ vy = ((moveDown - moveUp) * walkSpeed);
 
 // If idle
 if (vx == 0 && vy == 0) {
-	myState = playerState.idle;
+	// If i'm not picking up or putting down an item
+	if (myState != playerState.pickingUp && myState != playerState.puttingDown) {
+	    // If I don't have a item
+		if (hasItem == noone) {
+		    myState = playerState.idle;
+		}
+		// If I'm carrying an item
+		else {
+			myState = playerState.carryIdle;
+		}
+	}
 }
 
 // If moving
@@ -52,8 +62,13 @@ if (vx != 0 || vy != 0) {
 	}
 	
 	// Set state
-	myState = playerState.walking;
-	
+	// If we don't have an item
+	if (hasItem == noone) {
+	    myState = playerState.walking;
+	}
+	else {
+	    myState = playerState.carrying;
+	}
 	// Move audio listener with me
 	audio_listener_set_position(0, x, y, 0);
 }
@@ -85,17 +100,25 @@ if !nearbyNPC {
 
 // Check for collision with Items
 nearbyItem = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, object_parent_item, false, true);
-if nearbyItem {
+if (nearbyItem && !nearbyNPC) {
 	// Pop up prompt
 	if (itemPrompt == noone || itemPrompt == undefined) {
 		show_debug_message("object_player has found an item!");
 	    itemPrompt = showPrompt(nearbyItem, nearbyItem.x, nearbyItem.y - 300);
 	}
 }
-if !nearbyItem {
+if (!nearbyItem || nearbyNPC){
 	// Get rid of prompt
 	dismissPrompt(itemPrompt, 1);
 	show_debug_message("object_player hasn't found an item!");
+}
+
+// If picking up an item
+if (myState == playerState.pickingUp) {
+    if (image_index >= image_number - 1) {
+		myState = playerState.carrying;
+		global.playerControl = true;
+	}
 }
 
 // Depth sorting

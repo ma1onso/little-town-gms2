@@ -5,7 +5,7 @@ global.playerControl = true;
 
 // Player states
 enum playerState {
-	idle, walking, pickingUp, carryng, carryIdle, puttingDown,
+	idle, walking, pickingUp, carrying, carryIdle, puttingDown,
 }
 
 // Item states
