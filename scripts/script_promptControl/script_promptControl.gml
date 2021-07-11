@@ -4,8 +4,10 @@
 function showPrompt(_object, _x, _y){
 	if (instance_exists(_object)) {
 	    if (!instance_exists(object_text_box) && !instance_exists(object_prompt)) {
-		    iii = instance_create_depth(_x, _y, -10000, object_prompt);
-			return iii
+			if (object_player.myState != playerState.puttingDown) {
+			    iii = instance_create_depth(_x, _y, -10000, object_prompt);
+				return iii
+			}
 		}
 	}
 }

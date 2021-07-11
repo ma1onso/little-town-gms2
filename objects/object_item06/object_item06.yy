@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_item01",
-    "path": "sprites/spr_item01/spr_item01.yy",
+    "name": "spr_item06",
+    "path": "sprites/spr_item06/spr_item06.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,15 +26,15 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"itemName","path":"objects/object_parent_item/object_parent_item.yy",},"objectId":{"name":"object_parent_item","path":"objects/object_parent_item/object_parent_item.yy",},"value":"\"Rolling pin\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"itemWeight","path":"objects/object_parent_item/object_parent_item.yy",},"objectId":{"name":"object_parent_item","path":"objects/object_parent_item/object_parent_item.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"itemName","path":"objects/object_parent_item/object_parent_item.yy",},"objectId":{"name":"object_parent_item","path":"objects/object_parent_item/object_parent_item.yy",},"value":"\"Water sprinkler\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"itemWeight","path":"objects/object_parent_item/object_parent_item.yy",},"objectId":{"name":"object_parent_item","path":"objects/object_parent_item/object_parent_item.yy",},"value":"2.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Items",
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_item01",
+  "name": "object_item06",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -2,7 +2,9 @@
 
 // Variables
 walkSpeed = 16;
+// Velocity of move in x
 vx = 0;
+// Velocity of move in y
 vy = 0;
 dir = 3;
 moveRight = 0;
@@ -20,6 +22,11 @@ nearbyItem = noone;
 itemPrompt = noone;
 carryLimit = 0;
 myState = playerState.idle;
+runSpeed = 0;
+runMax = 12;
+running = false;
+// Is a boolean
+startDust = 0;
 
 // Create listener and set orientation
 audio_listener_set_position(0, x, y, 0);

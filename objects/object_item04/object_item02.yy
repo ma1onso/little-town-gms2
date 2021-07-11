@@ -34,7 +34,7 @@
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_item01",
+  "name": "object_item02",
   "tags": [],
   "resourceType": "GMObject",
 }

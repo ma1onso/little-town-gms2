@@ -14,9 +14,34 @@ if (global.playerControl == false) {
 	moveDown = 0;
 }
 
+// Run with Shift key
+running = keyboard_check(vk_shift);
+
+// Speed up if running
+if (running == true) {
+    // Ramp up
+	if (runSpeed < runMax) {
+	    runSpeed += 2;
+	}
+	show_debug_message("Eso es MONDA");
+	// Start creating dust
+	if (startDust == 0) {
+	    alarm[0] = 2;
+		startDust = 1;
+	}
+}
+// Slow down if not longer running
+if (running == false) {
+    // Ramp down
+	if (runSpeed > 0) {
+	    runSpeed -= 1;
+	}
+	startDust = 0;
+}
+
 // Calculate movement
-vx = ((moveRight - moveLeft) * walkSpeed);
-vy = ((moveDown - moveUp) * walkSpeed);
+vx = ((moveRight - moveLeft) * (walkSpeed + runSpeed) * (1 - carryLimit));
+vy = ((moveDown - moveUp) * (walkSpeed + runSpeed) * (1 - carryLimit));
 
 // If idle
 if (vx == 0 && vy == 0) {
