@@ -121,6 +121,17 @@ if (myState == playerState.pickingUp) {
 	}
 }
 
+// If putting down an item
+if (myState == playerState.puttingDown) {
+    // Reset weight
+	carryLimit = 0;
+	// Reset my state once animation finishes
+	if (image_index >= image_number - 1) {
+	    myState = playerState.idle;
+		global.playerControl = true;
+	}
+}
+
 // Depth sorting
 depth = -y;
 

@@ -1,4 +1,5 @@
 /// @description Setuo and vars
 
 // Set my state
-myState = ItemState.idle;
+myState = itemState.idle;
+putDownY = 0;

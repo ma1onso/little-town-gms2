@@ -51,6 +51,7 @@
     {"id":{"name":"object_item01","path":"objects/object_item01/object_item01.yy",},"order":0,},
     {"id":{"name":"snd_townBGM","path":"sounds/snd_townBGM/snd_townBGM.yy",},"order":6,},
     {"id":{"name":"spr_store01","path":"sprites/spr_store01/spr_store01.yy",},"order":6,},
+    {"id":{"name":"script_itemControl","path":"scripts/script_itemControl/script_itemControl.yy",},"order":1,},
     {"id":{"name":"spr_item02","path":"sprites/spr_item02/spr_item02.yy",},"order":1,},
     {"id":{"name":"spr_player_walk_up","path":"sprites/spr_player_walk_up/spr_player_walk_up.yy",},"order":6,},
     {"id":{"name":"spr_player_pickUp_down","path":"sprites/spr_player_pickUp_down/spr_player_pickUp_down.yy",},"order":22,},

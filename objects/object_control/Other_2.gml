@@ -9,6 +9,6 @@ enum playerState {
 }
 
 // Item states
-enum ItemState {
+enum itemState {
 	idle, taken, used, puttingBack,
 }
