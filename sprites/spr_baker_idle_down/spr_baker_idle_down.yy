@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NPCs",
-    "path": "folders/Sprites/NPCs.yy",
+    "name": "Baker",
+    "path": "folders/Sprites/NPCs/Baker.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_baker_idle_down",

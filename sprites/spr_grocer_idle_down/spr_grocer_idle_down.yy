@@ -113,8 +113,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "NPCs",
-    "path": "folders/Sprites/NPCs.yy",
+    "name": "Grocer",
+    "path": "folders/Sprites/NPCs/Grocer.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_grocer_idle_down",

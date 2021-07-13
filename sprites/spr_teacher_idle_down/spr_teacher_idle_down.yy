@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NPCs",
-    "path": "folders/Sprites/NPCs.yy",
+    "name": "Teacher",
+    "path": "folders/Sprites/NPCs/Teacher.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_teacher_idle_down",
