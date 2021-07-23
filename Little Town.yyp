@@ -13,6 +13,7 @@
     {"id":{"name":"snd_seq_bad02_BGM","path":"sounds/snd_seq_bad02_BGM/snd_seq_bad02_BGM.yy",},"order":0,},
     {"id":{"name":"object_item05","path":"objects/object_item05/object_item05.yy",},"order":5,},
     {"id":{"name":"snd_greeting01","path":"sounds/snd_greeting01/snd_greeting01.yy",},"order":9,},
+    {"id":{"name":"sequence_baker_sad","path":"sequences/sequence_baker_sad/sequence_baker_sad.yy",},"order":1,},
     {"id":{"name":"sequence_baker_happy","path":"sequences/sequence_baker_happy/sequence_baker_happy.yy",},"order":0,},
     {"id":{"name":"spr_rock01","path":"sprites/spr_rock01/spr_rock01.yy",},"order":5,},
     {"id":{"name":"object_item02","path":"objects/object_item02/object_item02.yy",},"order":2,},
@@ -167,7 +168,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.3.570",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Little Town",
