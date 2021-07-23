@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_seq_bad02_BGM.wav",
-  "duration": 151.410721,
+  "duration": 151.405716,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
