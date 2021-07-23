@@ -12,3 +12,15 @@ enum playerState {
 enum itemState {
 	idle, taken, used, puttingBack,
 }
+
+// Sequence states
+enum seqState{
+	notPlaying,
+	waiting,
+	playing,
+	finished,
+}
+// Sequence variables
+sequenceState = seqState.notPlaying;
+currentSequenceLayer = noone;
+curentSequence = noone;

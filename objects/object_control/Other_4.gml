@@ -7,3 +7,11 @@ switch room {
 		audio_play_sound(snd_townAmbience, 1, true); 
 		break;
 }
+
+// Mark sequences layer
+if (layer_exists("Cutscenes")) {
+    currentSequenceLayer = "Cutscenes";
+}
+else {
+	currentSequenceLayer = "Instances";
+}
