@@ -14,13 +14,13 @@ enum itemState {
 }
 
 // Sequence states
-enum seqState{
+enum sequenceState{
 	notPlaying,
 	waiting,
 	playing,
 	finished,
 }
 // Sequence variables
-sequenceState = seqState.notPlaying;
+sequenceState = sequenceState.notPlaying;
 currentSequenceLayer = noone;
-curentSequence = noone;
+currentSequence = noone;
