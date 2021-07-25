@@ -111,7 +111,7 @@ if nearbyNPC {
 	    npcPrompt = showPrompt(nearbyNPC, nearbyNPC.x, nearbyNPC.y - 450);
 	}
 	
-	show_debug_message("object_player has found an NPC!");
+	//show_debug_message("object_player has found an NPC!");
 }
 if !nearbyNPC {
 	// Reset greeting
@@ -120,7 +120,7 @@ if !nearbyNPC {
 	}
 	// Get rid of prompt
 	dismissPrompt(npcPrompt, 0);
-	show_debug_message("object_player hasn't found an NPC!");
+	//show_debug_message("object_player hasn't found an NPC!");
 }
 
 // Check for collision with Items
@@ -128,14 +128,14 @@ nearbyItem = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y 
 if (nearbyItem && !nearbyNPC) {
 	// Pop up prompt
 	if (itemPrompt == noone || itemPrompt == undefined) {
-		show_debug_message("object_player has found an item!");
+		//show_debug_message("object_player has found an item!");
 	    itemPrompt = showPrompt(nearbyItem, nearbyItem.x, nearbyItem.y - 300);
 	}
 }
 if (!nearbyItem || nearbyNPC){
 	// Get rid of prompt
 	dismissPrompt(itemPrompt, 1);
-	show_debug_message("object_player hasn't found an item!");
+	//show_debug_message("object_player hasn't found an item!");
 }
 
 // If picking up an item
