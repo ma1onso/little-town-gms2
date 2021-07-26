@@ -1,6 +1,6 @@
 /// @description Textbox test
 
-var _text;
+var _text, _sequence;
 
 // If player has control
 if (global.playerControl == true) {
@@ -19,15 +19,18 @@ if (global.playerControl == true) {
 		    // If player has correct item
 			if (hasItem.object_index == nearbyNPC.myItem) {
 			    _text = nearbyNPC.itemTextHappy;
+				_sequence = nearbyNPC.sequenceHappy;
 			}
 			// Or if player has incorrect item
 			else {
 				_text = nearbyNPC.itemTextSad;
+				_sequence = nearbyNPC.sequenceSad;
 			}
 			// Create textbox
 			if (!instance_exists(object_text_box)) {
 			    iii = instance_create_depth(nearbyNPC.x, nearbyNPC.y - 400, -10000, object_text_box);
 				iii.textToShow = _text;
+				iii.sequenceToShow = _sequence;
 			}
 		}
 	}

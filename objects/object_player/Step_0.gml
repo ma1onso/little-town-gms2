@@ -16,7 +16,7 @@ if (global.playerControl == false) {
 
 // Run with Shift key
 running = keyboard_check(vk_shift);
-
+ 
 // Speed up if running
 if (running == true) {
     // Ramp up
@@ -94,7 +94,17 @@ if (vx != 0 || vy != 0) {
 	else {
 	    myState = playerState.carrying;
 	}
-	// Move audio listener with me
+}
+
+// Set my listener if sequence is playing
+if (instance_exists(object_control) && object_control.sequenceState == sequenceState.playing) {
+    var _camX = camera_get_view_x(view_camera[0]) + floor(camera_get_view_width(view_camera[0]) * 0.5);
+    var _camY = camera_get_view_y(view_camera[0]) + floor(camera_get_view_height(view_camera[0]) * 0.5);
+	
+	audio_listener_set_position(0, _camX, _camY, 0);
+}
+// Otherwise, move audio listener with me
+else {
 	audio_listener_set_position(0, x, y, 0);
 }
 
