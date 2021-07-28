@@ -20,6 +20,13 @@ enum sequenceState{
 	playing,
 	finished,
 }
+
+// NPC states
+enum npcState{
+    normal,
+	done,
+}
+
 // Sequence variables
 sequenceState = sequenceState.notPlaying;
 currentSequenceLayer = noone;

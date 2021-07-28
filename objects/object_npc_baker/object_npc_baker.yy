@@ -35,6 +35,7 @@
     {"propertyId":{"name":"itemTextHappy","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"\"Oh my godness... Is this waht I think it is!?\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"itemTextSad","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"\"Mmmm, what's that you have there?\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"itemTextDone","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"\"Thank you! Now I can bake pies all day long!\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"doneSprite","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"spr_baker_happy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "NPCs",

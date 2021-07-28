@@ -20,6 +20,8 @@ if (global.playerControl == true) {
 			if (hasItem.object_index == nearbyNPC.myItem) {
 			    _text = nearbyNPC.itemTextHappy;
 				_sequence = nearbyNPC.sequenceHappy;
+				// Check if we should remove item, mark NPC
+				alarm[1] = 10;
 			}
 			// Or if player has incorrect item
 			else {

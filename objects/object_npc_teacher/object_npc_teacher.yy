@@ -35,6 +35,7 @@
     {"propertyId":{"name":"sequenceHappy","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"sequence_teacher_happy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"sequenceSad","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"sequence_teacher_sad","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"myItem","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"object_item02","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"doneSprite","path":"objects/object_parent_npc/object_parent_npc.yy",},"objectId":{"name":"object_parent_npc","path":"objects/object_parent_npc/object_parent_npc.yy",},"value":"spr_teacher_happy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "NPCs",
