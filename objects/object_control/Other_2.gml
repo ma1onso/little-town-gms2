@@ -2,6 +2,7 @@
 
 // Game variables
 global.playerControl = true;
+global.gameOver = false;
 
 // Player states
 enum playerState {
