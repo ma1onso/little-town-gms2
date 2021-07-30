@@ -21,7 +21,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"object_block","path":"objects/object_block/object_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.07132625,"scaleX":20.2000027,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":2336.0,"resourceVersion":"1.0","name":"inst_4F80162D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_npc_grocer","path":"objects/object_npc_grocer/object_npc_grocer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2944.0,"y":2176.0,"resourceVersion":"1.0","name":"inst_686C9670","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_npc_teacher","path":"objects/object_npc_teacher/object_npc_teacher.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1056.0,"y":608.0,"resourceVersion":"1.0","name":"inst_396287A5","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"object_control","path":"objects/object_control/object_control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":-384.0,"resourceVersion":"1.0","name":"inst_3467E78A","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Blocks","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"object_player","path":"objects/object_player/object_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2001.5,"y":868.0,"resourceVersion":"1.0","name":"inst_473C42F2","tags":[],"resourceType":"GMRInstance",},
@@ -101,7 +100,6 @@
     {"name":"inst_66E44D6","path":"rooms/room_game_main/room_game_main.yy",},
     {"name":"inst_686C9670","path":"rooms/room_game_main/room_game_main.yy",},
     {"name":"inst_396287A5","path":"rooms/room_game_main/room_game_main.yy",},
-    {"name":"inst_3467E78A","path":"rooms/room_game_main/room_game_main.yy",},
     {"name":"inst_2758D77C","path":"rooms/room_game_main/room_game_main.yy",},
     {"name":"inst_3D3D8DCE","path":"rooms/room_game_main/room_game_main.yy",},
     {"name":"inst_2716DEBB","path":"rooms/room_game_main/room_game_main.yy",},
