@@ -23,7 +23,7 @@ if (running == true) {
 	if (runSpeed < runMax) {
 	    runSpeed += 2;
 	}
-	show_debug_message("Eso es MONDA");
+
 	// Start creating dust
 	if (startDust == 0) {
 	    alarm[0] = 2;
